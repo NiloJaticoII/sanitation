@@ -11,22 +11,22 @@ namespace Sanitation
         private string name;
         private bool hygiene;
 
-        public Person(string name, bool hygiene)
+        public Person(string name)
         {
             this.name = name;
-            this.hygiene = hygiene;
-        }
-
-        public bool Hygiene
-        {
-            get { return this.hygiene; }
-            set { this.hygiene = value; }
+            this.hygiene = true;
         }
 
         public string Name
         {
             get { return this.name; }
             set { this.name = value; }
+        }
+
+        public bool Hygiene
+        {
+            get { return this.hygiene; }
+            set { this.hygiene = value; }
         }
 
         public void Play()

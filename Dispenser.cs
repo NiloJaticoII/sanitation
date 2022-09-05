@@ -52,6 +52,7 @@ namespace Sanitation
             else
             {
                 this.volume = this.volume - (this.maxVolume / 10);
+                Console.WriteLine("Dispenser dispensed.");
                 person.Hygiene = true;
             }
         }

@@ -1,0 +1,15 @@
+D:\Documents\Code\Sanitation\bin\Debug\net6.0\Sanitation.exe
+D:\Documents\Code\Sanitation\bin\Debug\net6.0\Sanitation.deps.json
+D:\Documents\Code\Sanitation\bin\Debug\net6.0\Sanitation.runtimeconfig.json
+D:\Documents\Code\Sanitation\bin\Debug\net6.0\Sanitation.dll
+D:\Documents\Code\Sanitation\bin\Debug\net6.0\Sanitation.pdb
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.csproj.AssemblyReference.cache
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.AssemblyInfoInputs.cache
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.AssemblyInfo.cs
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.csproj.CoreCompileInputs.cache
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.dll
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\refint\Sanitation.dll
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.pdb
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\Sanitation.genruntimeconfig.cache
+D:\Documents\Code\Sanitation\obj\Debug\net6.0\ref\Sanitation.dll
