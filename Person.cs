@@ -33,5 +33,10 @@ namespace Sanitation
         {
             this.hygiene = false;
         }
+
+        public void Clean(Dispenser dispenser)
+        {
+            dispenser.Dispense(this);
+        }
     }
 }

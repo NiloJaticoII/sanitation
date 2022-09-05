@@ -8,9 +8,52 @@ namespace Sanitation
 {
     public class Dispenser
     {
-        public Dispenser()
+        private int id;
+        private double volume;
+        private double maxVolume;
+        public Dispenser(int id, double volume)
         {
+            this.id = id;
+            this.volume = volume;
+            this.maxVolume = volume;
+        }
 
+        public int ID
+        {
+            get { return this.id; }
+        }
+
+        public double Volume 
+        { 
+            get { return this.volume; } 
+        }
+
+        public double MaxVolume
+        {
+            get { return this.maxVolume; }
+        }
+
+        public void Refill()
+        {
+            this.volume = this.maxVolume;
+        }
+
+        public bool CheckEmpty()
+        {
+            return this.volume == 0;
+        }
+
+        public void Dispense(Person person)
+        {
+            if(CheckEmpty())
+            {
+                Console.WriteLine("Dispenser is unavailable.");
+            }
+            else
+            {
+                this.volume = this.volume - (this.maxVolume / 10);
+                person.Hygiene = true;
+            }
         }
     }
 }
