@@ -36,6 +36,7 @@ namespace Sanitation
         public void Refill()
         {
             this.volume = this.maxVolume;
+            Console.WriteLine($"Dispenser {this.id} is refilled.");
         }
 
         public bool CheckEmpty()
@@ -52,7 +53,7 @@ namespace Sanitation
             else
             {
                 this.volume = this.volume - (this.maxVolume / 10);
-                Console.WriteLine("Dispenser dispensed.");
+                Console.WriteLine($"Dispenser {this.id} dispensed.");
                 person.Hygiene = true;
             }
         }

@@ -31,11 +31,13 @@ namespace Sanitation
 
         public void Play()
         {
+            Console.WriteLine($"{this.name} is playing outside.");
             this.hygiene = false;
         }
 
         public void Clean(Dispenser dispenser)
         {
+            Console.WriteLine($"{this.name} is using the sanitation dispenser.");
             dispenser.Dispense(this);
         }
     }
